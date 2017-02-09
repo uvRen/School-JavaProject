@@ -17,7 +17,7 @@ public class Main extends Application {
 			FXMLLoader fxmlLoader = new FXMLLoader();
 			root = fxmlLoader.load(getClass().getResource("ServerGUI.fxml").openStream());
 			//controller = (StartController)fxmlLoader.getController();
-			Scene loginScene = new Scene(root, 500, 500);
+			Scene loginScene = new Scene(root, 800, 1000);
 			primaryStage.setScene(loginScene);
 			primaryStage.show();
 		}
